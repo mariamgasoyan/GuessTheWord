@@ -8,13 +8,13 @@ My goal in the scope of this project is to build a “Guess The Word” game. Th
 -Who: Anyone, especially foreign speakers.\
 -What: A game.\
 -When: I would like to launch the game in 1.5 month.\
--How: The users will be able to download the game from our Website.\
+-How: The users will be able to download the game from our Website.
 
 3.User Problems Solved\
 User need: Users sometimes need a light and a mind training way to spend their free time. \
 Resolution: The game allows the users not to spend their free time in vain keeping the brain in shape. \
 User need: Foreign speakers need something to test their vocabulary knowledge.\
-Resolution: The game will contain many useful words to test the users’ vocabulary. \
+Resolution: The game will contain many useful words to test the users’ vocabulary. 
 
 
 4.User Stories\
