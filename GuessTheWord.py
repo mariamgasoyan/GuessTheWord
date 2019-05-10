@@ -57,9 +57,9 @@ def print_leaderboard():
             x += 1
 
 def instructions_setup():
-    print("\nWhile playing the game note! \n - If you have troubles guessing the word and you want a hint type -hint-.")
-    print(" - If you want to pass to the next word, type -pass- (-1 points).")
-    print(" - If you want to end the game, type -end-.")
+    print("\nWhile playing the game note! \n - If you have troubles guessing the word and you want a hint type \'hint\'.")
+    print(" - If you want to pass to the next word, type \'pass\' (-1 points).")
+    print(" - If you want to end the game, type \'end\'.")
     print("\nLet's start!\n----------------------")
 
 
