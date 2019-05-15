@@ -18,9 +18,8 @@ Resolution: The game will contain many useful words to test the users’ vocabul
 
 
 4.User Stories\
--As a user, I can create an account putting my name and a passcode.\
--As a user, I can log in or log out if I already have an existing account.\
+-As a user, I can create an account putting my name.\
 -As a user, I can collect points guessing the words right.\
 -As a user, I can see the points in my account while playing.\
--As a user, I can see the leaderboard and my position in it.\
-...
+-As a user, I can see the leaderboard and my position in it when I finish the game.\
+
