@@ -2,13 +2,13 @@
 # “Guess the word” game
 
 1.Overview\
-My goal in the scope of this project is to build a “Guess The Word” game. The user needs to guess and imput the letters contained in  the hidden word considering the given hints and the number of needed letters (shown as dots). Each additional success adds points to the user’s account, while each failure takes some of the collected points away.
+My goal in the scope of this project is to build a “Guess The Word” game. The user needs to guess and imput the letters contained in  the hidden word considering the given hints and the number of needed letters (shown as dots). Each additional success adds two points to the user’s account, while each failure takes one point away.
 
 2.Target Users\
 -Who: Anyone, especially foreign speakers.\
 -What: A game.\
--When: I would like to launch the game in 1.5 month.\
--How: The users will be able to download the game from our Website.
+-When: I would like to launch the game by June 2019.\
+-How: The users will be able to play de game using python console application.
 
 3.User Problems Solved\
 User need: Users sometimes need a light and a mind training way to spend their free time. \
@@ -20,6 +20,6 @@ Resolution: The game will contain many useful words to test the users’ vocabul
 4.User Stories\
 -As a user, I can create an account putting my name.\
 -As a user, I can collect points guessing the words right.\
+-As a user, I can ask for a hint, pass to the next word and end the game whenever I need to.\
 -As a user, I can see the points in my account while playing.\
 -As a user, I can see the leaderboard and my position in it when I finish the game.\
-
