@@ -1,59 +1,49 @@
 {
   "project": [
-{
-  "the_word": "word1",
-  "definition": "definition1",
-  "hint": "hint1"
-},
-{
-  "the_word": "word2",
-  "definition": "definition2",
-  "hint": "hint2"
-},
-{
-  "the_word": "word3",
-  "definition": "definition3",
-  "hint": "hint3"
-},
     {
-  "the_word": "word3",
-  "definition": "definition3",
-  "hint": "hint3"
-},
+      "the_word": "academy",
+      "definition": "A type of official organization which aims to encourage and develop art, literature, science, etc.",
+      "hint": "Starts with A."
+    },
     {
-  "the_word": "word4",
-  "definition": "definition4",
-  "hint": "hint4"
-},
+      "the_word": "achievement",
+      "definition": "A thing that somebody has done successfully, especially using their own effort and skill.",
+      "hint": "The act or process of achieving something."
+    },
     {
-  "the_word": "word5",
-  "definition": "definition5",
-  "hint": "hint5"
-},
-    {
-  "the_word": "word6",
-  "definition": "definition6",
-  "hint": "hint6"
-},
-    {
-  "the_word": "word7",
-  "definition": "definition7",
-  "hint": "hint7"
-},
-    {
-  "the_word": "word8",
-  "definition": "definition8",
-  "hint": "hint8"
-},
-    {
-  "the_word": "word9",
-  "definition": "definition9",
-  "hint": "hint9"
-},
-    {
-  "the_word": "word10",
-  "definition": "definition10",
-  "hint": "hint10"
-}
+      "the_word": "bicycle",
+      "definition": "A road vehicle with two wheels that you ride by pushing the pedals with your feet.",
+      "hint": "Starts whth B."
+    },
+        {
+      "the_word": "bachelor",
+      "definition": "A man who has never been married.",
+      "hint": "A first university degree."
+    },
+        {
+      "the_word": "challenge",
+      "definition": "A new or difficult task that tests somebody's ability and skill.",
+      "hint": "An invitation or a suggestion to sb that they should enter a competition, fight, etc."
+    },
+        {
+      "the_word": "crime",
+      "definition": "An illegal act or activity that can be punished by law.",
+      "hint": "Shoplifting is a serious *****."
+    },
+        {
+      "the_word": "design",
+      "definition": "The art or process of deciding how sth will look, work, etc. by drawing plans, making models, etc.",
+      "hint": "A decorative pattern."
+    },
+        {
+      "the_word": "duty",
+      "definition": "Something that you feel you have to do because it is your moral or legal responsibility.",
+      "hint": "Starts with D."
+    },
+        {
+      "the_word": "hotel",
+      "definition": "A building where people stay, usually for a short time, paying for their rooms and meals.",
+      "hint": "Welcome to the ***** California"
+    }
   ]
 }
