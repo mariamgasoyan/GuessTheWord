@@ -1,7 +1,6 @@
 def user_login():
     import json
     username = input("Enter your username: ")
-    #   password = input("Password: ")
     print("\nHello " + username + "!")
     with open('users.json', 'r+') as users_dict:
         users = json.load(users_dict)
@@ -58,6 +57,7 @@ def print_leaderboard():
 
 def instructions_setup():
     print("\nWhile playing the game note! \n - If you have troubles guessing the word and you want a hint type \'hint\'.")
+    print(" - All the hidden words in this game are lowercase")
     print(" - If you want to pass to the next word, type \'pass\' (-1 points).")
     print(" - If you want to end the game, type \'end\'.")
     print("\nLet's start!\n----------------------")
@@ -74,44 +74,42 @@ def main():
 
     secret_word = pick_a_word()
     print(username + "!", "Currently you have", points, "points.")
-    print("\n", secret_word['definition'])
+    print("\n" + "Definition: " + secret_word['definition'])
     input_word = user_input_word()
 
     while input_word != "end":
         while secret_word['the_word'] not in used_words:
+            if input_word == "hint":
+                print("\n" + "Definition: " + secret_word['definition'] + "\n" + "Hint: " + secret_word['hint'])
+                input_word = user_input_word()
             if input_word == secret_word['the_word']:
                 points += 2
                 used_words.add(secret_word['the_word'])
                 print("---------\nRight", username + "!", "You have got", points, "points. \n")
-            elif input_word == "hint":
-                print(username + "!", "Currently you have", points, "points.")
-                print("\n", secret_word['definition'], "\n", secret_word['hint'])
-                input_word = user_input_word()
-                if input_word == secret_word['the_word']:
-                    points += 1
-                    used_words.add(secret_word['the_word'])
-                    print("---------\nRight", username + "!", "You have got", points, "points. \n")
             elif input_word == "pass":
                 points -= 1
+                print("---------\nThe secret word was \'" + secret_word['the_word'] + "\'")
                 used_words.add(secret_word['the_word'])
-                print("\n" + username + "!", "Currently you have", points, "points.")
+                print("\n" + username + "!", "Currently you have", points, "points. \n")
+            elif input_word == "end":
+                break
             else:
-                print("Nope! Try again please. \n" + secret_word['definition'] + "\n")
+                print("---------\nNope! Try again please. \n\nDefinition: " + secret_word['definition'])
                 input_word = user_input_word()
                 while input_word not in ["hint", "pass", "end", secret_word['the_word']]:
-                    print("Nope! Try again please. \n" + secret_word['definition'] + "\n")
+                    print("---------\nNope! Try again please. \n\n" + "Definition: " + secret_word['definition'])
                     input_word = user_input_word()
-                print(username + "!", "Currently you have", points, "points.")
-
-
+        if input_word == "end":
+            break
         secret_word = pick_a_word()
-        print(secret_word['definition'])
+        print("Definition: " + secret_word['definition'])
         input_word = user_input_word()
 
-    print(username + "!", "You had", points, "points.")
+    print("---------\n", username + "!", "You had", points, "points.")
 
     save_points(username, points)
     print_leaderboard()
 
 
 main()
+
