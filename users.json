@@ -1,1 +1,13 @@
-{"users": ["Mariam"], "points": {"Mariam": 6}}
+{
+  "users": ["Mariam", "Mar", "Mary", "Anna", "Levon", "Anahit", "Arman", "Ani", "Gevorg"], 
+ "points": {"Mariam": 2, 
+            "Mar": 1, 
+            "Mary": 7, 
+            "Anna": 6, 
+            "Levon": 0, 
+            "Anahit": -1, 
+            "Arman": 2, 
+            "Ani": 1, 
+            "Gevorg": 0
+           }
+}
